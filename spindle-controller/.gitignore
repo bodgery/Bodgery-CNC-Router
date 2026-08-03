@@ -1,0 +1,11 @@
+# KiCad backup and lock files
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.kicad_prl-bak
+~*.lck
+*-backups/
+.history/
+
+# OS clutter
+.DS_Store
+Thumbs.db

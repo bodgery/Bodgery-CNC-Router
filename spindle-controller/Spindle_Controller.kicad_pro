@@ -269,7 +269,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "CNC_router.kicad_pro",
+    "filename": "Spindle_Controller.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -436,12 +436,12 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "CNC_router.kicad_sch",
+        "filename": "Spindle_Controller.kicad_sch",
         "name": "Root",
         "uuid": "10c7a81d-d8e0-4023-94dc-af5199d847de"
       }
     ],
-    "used_designators": "D1-3,#PWR10-12,J16,J23-25,K1",
+    "used_designators": "#PWR10-12,D1-3,J16,J19,J23-26,K1",
     "variants": []
   },
   "sheets": [

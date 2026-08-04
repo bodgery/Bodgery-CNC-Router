@@ -832,7 +832,7 @@
 			(uuid "497f9d0e-e227-4bda-a139-094c3b065d48")
 		)
 		(instances
-			(project "CNC_router"
+			(project "Spindle_Controller"
 				(path "/10c7a81d-d8e0-4023-94dc-af5199d847de/f7b3ec90-314f-4a0f-973d-51f425e2f6c5"
 					(reference "K1")
 					(unit 1)
@@ -914,7 +914,7 @@
 			(uuid "8f3762aa-3c07-4c8c-8edd-d7fa39988ee4")
 		)
 		(instances
-			(project "CNC_router"
+			(project "Spindle_Controller"
 				(path "/10c7a81d-d8e0-4023-94dc-af5199d847de/f7b3ec90-314f-4a0f-973d-51f425e2f6c5"
 					(reference "J25")
 					(unit 1)

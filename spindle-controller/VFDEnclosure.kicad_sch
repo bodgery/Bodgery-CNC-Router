@@ -5,430 +5,6 @@
 	(uuid "cf7ab340-1cc1-44a0-b8fa-68a8d443c62e")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:LEMO6"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J24"
-				(at 1.6511 15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "GX12-6"
-				(at 1.6511 12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "6-pin LEMO connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LEMO connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LEMO6_0_1"
-				(polyline
-					(pts
-						(xy -10.16 5.08) (xy -8.89 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -8.89 5.08) (xy -5.842 2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -8.89 -5.08) (xy -10.16 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -8.89 -5.08) (xy -5.842 -2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -5.08 2.54)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -5.08 -2.54)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.0254 -7.62)
-					(mid -5.3882 -5.3882)
-					(end -7.62 -0.0254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 10.16) (xy 0 5.842)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 5.08)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start 7.62 -0.0254)
-					(mid 5.3882 -5.3882)
-					(end 0.0254 -7.62)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -5.08)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -10.16) (xy 0 -5.842)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 5.08 2.54)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 5.08 -2.54)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 5.08) (xy 5.842 2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 -5.08) (xy 5.842 -2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 -5.08) (xy 10.16 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 5.08) (xy 8.89 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LEMO6_1_1"
-				(pin passive line
-					(at -12.7 -5.08 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -12.7 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -5.08 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 5.08 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 12.7 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 5.08 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_numbers
 				(hide yes)
@@ -1045,6 +621,422 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "GX12_Connectors:GX12-7"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 8.255 9.525 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GX12-7"
+				(at 8.255 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "7-pin GX12 Connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LEMO connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GX12-7_0_1"
+				(polyline
+					(pts
+						(xy -10.16 5.08) (xy -8.89 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 -2.54) (xy -8.89 -2.54) (xy -10.16 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 5.08) (xy -5.842 2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 -5.08) (xy -10.16 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 -5.08) (xy -5.842 -2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -5.08 2.54)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -5.08 -2.54)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 10.16) (xy 0 5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 5.08)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 -5.08)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -10.16) (xy 0 -5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5.08 2.54)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5.08 -2.54)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 5.08) (xy 5.842 2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -5.08) (xy 5.842 -2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -5.08) (xy 10.16 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 5.08) (xy 8.89 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GX12-7_1_1"
+				(pin passive line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 11.43 16.51)
@@ -1118,6 +1110,26 @@
 	)
 	(wire
 		(pts
+			(xy 17.78 53.086) (xy 82.804 53.086)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00ee8bca-ebca-48f0-a39d-9e99262619ce")
+	)
+	(wire
+		(pts
+			(xy 82.804 49.53) (xy 82.55 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07926290-4ac1-4c65-8525-09d30a2da8ea")
+	)
+	(wire
+		(pts
 			(xy 77.47 38.1) (xy 77.47 49.53)
 		)
 		(stroke
@@ -1138,7 +1150,17 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 49.53) (xy 110.49 101.6)
+			(xy 82.804 53.086) (xy 82.804 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a113bc0-c461-4716-a7fc-5c7b4d613b6d")
+	)
+	(wire
+		(pts
+			(xy 110.49 49.53) (xy 110.49 113.284)
 		)
 		(stroke
 			(width 0)
@@ -1148,13 +1170,33 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 95.25) (xy 74.93 49.53)
+			(xy 31.75 82.55) (xy 17.78 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ed12b67-4eaf-4ab9-bd2b-3fd36eac640c")
+	)
+	(wire
+		(pts
+			(xy 74.676 101.6) (xy 74.676 101.346)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "42fb93fa-9771-4f97-bbd3-f40ac2a3014d")
+	)
+	(wire
+		(pts
+			(xy 17.78 82.55) (xy 17.78 53.086)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "472dad46-5cdc-4df9-8446-cf08a5a50bc7")
 	)
 	(wire
 		(pts
@@ -1168,16 +1210,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 87.63) (xy 31.75 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4eb1711f-f2f4-4017-b9f0-ea42688ef1cf")
-	)
-	(wire
-		(pts
 			(xy 44.45 69.85) (xy 44.45 60.96)
 		)
 		(stroke
@@ -1185,6 +1217,26 @@
 			(type default)
 		)
 		(uuid "5b4096e7-c4f9-4421-9feb-f4beee074624")
+	)
+	(wire
+		(pts
+			(xy 31.75 87.63) (xy 31.75 113.284)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e403f7d-6abc-4cd6-8f60-e70b8546130a")
+	)
+	(wire
+		(pts
+			(xy 74.93 101.346) (xy 74.93 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70498b06-64fc-4632-8743-44ba642592b0")
 	)
 	(wire
 		(pts
@@ -1248,6 +1300,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.676 101.346) (xy 74.93 101.346)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af4f3185-d141-44dc-8a99-16f3708a1edf")
+	)
+	(wire
+		(pts
 			(xy 57.15 87.63) (xy 60.96 87.63)
 		)
 		(stroke
@@ -1278,7 +1340,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 101.6) (xy 110.49 101.6)
+			(xy 31.75 113.284) (xy 110.49 113.284)
 		)
 		(stroke
 			(width 0)
@@ -1288,13 +1350,23 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 95.25) (xy 74.93 95.25)
+			(xy 44.196 101.6) (xy 74.676 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d8ccdf75-9f53-4118-a8c7-545cfe0dbda5")
+	)
+	(wire
+		(pts
+			(xy 44.196 101.6) (xy 44.45 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da8afe9f-a062-4185-ace8-bd112d7da1cc")
 	)
 	(wire
 		(pts
@@ -1386,7 +1458,7 @@
 	)
 	(global_label "VFD_RUN_SENSE"
 		(shape output)
-		(at 31.75 101.6 180)
+		(at 31.75 101.346 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1396,7 +1468,7 @@
 		)
 		(uuid "59627221-3554-41ee-8f60-b7422966fa20")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 13.4039 101.6 0)
+			(at 13.4039 101.346 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1456,9 +1528,35 @@
 			)
 		)
 	)
+	(global_label "VFD_DI1"
+		(shape input)
+		(at 22.098 82.55 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "fcf0097f-aa3e-4097-99d6-2f7f6f71f4ee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.098 93.5103 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "VFD_FM1"
 		(shape output)
-		(at 45.72 95.25 180)
+		(at 45.466 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1468,7 +1566,7 @@
 		)
 		(uuid "fd64882e-bfd6-4975-999f-136bbe4befea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.5705 95.25 0)
+			(at 34.3165 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1481,7 +1579,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:LEMO6")
+		(lib_id "GX12_Connectors:GX12-7")
 		(at 44.45 82.55 0)
 		(unit 1)
 		(body_style 1)
@@ -1504,7 +1602,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GX12-6"
+		(property "Value" "GX12-7"
 			(at 46.1011 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1537,7 +1635,7 @@
 				)
 			)
 		)
-		(property "Description" "6-pin LEMO connector"
+		(property "Description" "7-pin GX12 Connector"
 			(at 44.45 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -1566,8 +1664,11 @@
 		(pin "1"
 			(uuid "8df3dc97-6a37-4f3a-96d6-de8b345fc1be")
 		)
+		(pin "7"
+			(uuid "3714f208-9823-4dd0-b968-d62631f9bf29")
+		)
 		(instances
-			(project "CNC_router"
+			(project "Spindle_Controller"
 				(path "/10c7a81d-d8e0-4023-94dc-af5199d847de/f7b14e96-f363-41c6-90b3-9bd94a39e254"
 					(reference "J24")
 					(unit 1)
@@ -1676,7 +1777,7 @@
 			(uuid "a6df53e5-9337-40ba-87d6-4dede8123bb4")
 		)
 		(instances
-			(project "CNC_router"
+			(project "Spindle_Controller"
 				(path "/10c7a81d-d8e0-4023-94dc-af5199d847de/f7b14e96-f363-41c6-90b3-9bd94a39e254"
 					(reference "J16")
 					(unit 1)
@@ -1763,7 +1864,7 @@
 			(uuid "45b9effb-e610-4ae8-8e42-25028c319175")
 		)
 		(instances
-			(project "CNC_router"
+			(project "Spindle_Controller"
 				(path "/10c7a81d-d8e0-4023-94dc-af5199d847de/f7b14e96-f363-41c6-90b3-9bd94a39e254"
 					(reference "J23")
 					(unit 1)

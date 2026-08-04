@@ -736,7 +736,7 @@
 	)
 	(global_label "LED_YELLOW"
 		(shape input)
-		(at 78.74 68.58 90)
+		(at 75.184 68.58 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -746,7 +746,7 @@
 		)
 		(uuid "2fffb819-db13-4ef8-9372-230d26a4a4d2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.74 54.1044 90)
+			(at 75.184 54.1044 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -760,7 +760,7 @@
 	)
 	(global_label "LED_PLUS"
 		(shape input)
-		(at 69.85 55.88 90)
+		(at 70.104 55.88 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -770,7 +770,7 @@
 		)
 		(uuid "9d824f48-451d-4aaf-ab61-9dcba4271064")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.85 43.642 90)
+			(at 70.104 43.642 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -784,17 +784,17 @@
 	)
 	(global_label "LED_RED"
 		(shape input)
-		(at 71.12 73.66 90)
+		(at 69.088 73.66 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "b3412aaa-3f02-4541-a922-052a952c8a76")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.12 62.5711 90)
+			(at 69.088 84.7489 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -802,7 +802,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -915,7 +915,7 @@
 			(uuid "38ca5013-4155-423f-af3b-8925f84b10ed")
 		)
 		(instances
-			(project "CNC_router"
+			(project "Spindle_Controller"
 				(path "/10c7a81d-d8e0-4023-94dc-af5199d847de/686995af-2256-4cfc-a238-558e0c36d6fd"
 					(reference "D2")
 					(unit 1)
@@ -1008,7 +1008,7 @@
 			(uuid "98e51ab1-b6fc-459e-b7ca-2b7e685accd4")
 		)
 		(instances
-			(project "CNC_router"
+			(project "Spindle_Controller"
 				(path "/10c7a81d-d8e0-4023-94dc-af5199d847de/686995af-2256-4cfc-a238-558e0c36d6fd"
 					(reference "D1")
 					(unit 1)
@@ -1101,7 +1101,7 @@
 			(uuid "5b3aca15-c952-4cf1-909a-946c615af249")
 		)
 		(instances
-			(project "CNC_router"
+			(project "Spindle_Controller"
 				(path "/10c7a81d-d8e0-4023-94dc-af5199d847de/686995af-2256-4cfc-a238-558e0c36d6fd"
 					(reference "D3")
 					(unit 1)
@@ -1187,7 +1187,7 @@
 			(uuid "35eca215-4b9e-4dc5-a869-7439daa1f134")
 		)
 		(instances
-			(project "CNC_router"
+			(project "Spindle_Controller"
 				(path "/10c7a81d-d8e0-4023-94dc-af5199d847de/686995af-2256-4cfc-a238-558e0c36d6fd"
 					(reference "J22")
 					(unit 1)

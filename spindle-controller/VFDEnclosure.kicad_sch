@@ -1050,6 +1050,19 @@
 		)
 		(uuid "3310f74f-afa1-46ea-b9d0-4f7a00d2ae50")
 	)
+	(circle
+		(center 44.45 82.042)
+		(radius 0.508)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "937b40cb-3524-44b0-a918-eb14ed0eb63d")
+	)
 	(text "+24V / COM -- aux supply, 300mA max\n(feeds the LED display box)"
 		(exclude_from_sim no)
 		(at 125.73 72.39 0)
@@ -1085,7 +1098,7 @@
 		)
 		(uuid "857e901e-d139-4804-bbb8-b5d5699b797b")
 	)
-	(text "FM1 -- analog output, actual running frequency\n(0-10V, shares GND below)\nRequires P2.0.33 = 00 (Run frequency)\n	This is already the Factory default\nRequires J6 in 0-10V position"
+	(text "FM1 -- analog output, actual running frequency\n(0-10V, shares GND below)\nRequires P2.0.33 = 00 (Run frequency)\n	This is already the Factory default\nRequires J6 in 0-10V "
 		(exclude_from_sim no)
 		(at 125.73 50.8 0)
 		(effects
@@ -1107,6 +1120,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e2e1ade1-fbe8-4311-8e53-840dfeadef43")
+	)
+	(no_connect
+		(at 115.57 49.53)
+		(uuid "d534da3a-7121-402e-b3ab-aadaa9481841")
 	)
 	(wire
 		(pts
@@ -1138,6 +1155,16 @@
 		)
 		(uuid "100939f1-9d8a-49b8-810b-29a63b1590d8")
 	)
+	(polyline
+		(pts
+			(xy 34.29 82.55) (xy 44.196 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "214dabaf-a6b9-4b03-9635-60be3ce1b237")
+	)
 	(wire
 		(pts
 			(xy 72.39 87.63) (xy 72.39 49.53)
@@ -1147,6 +1174,16 @@
 			(type default)
 		)
 		(uuid "31480c53-a428-4bff-bf79-2226ee08b10f")
+	)
+	(polyline
+		(pts
+			(xy 44.196 82.55) (xy 44.196 82.804)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33b9838c-a6c4-422f-ac9f-ae03b1e3d089")
 	)
 	(wire
 		(pts

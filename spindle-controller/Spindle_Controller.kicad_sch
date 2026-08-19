@@ -5662,6 +5662,17 @@
 		)
 		(uuid "13991424-1d71-4723-b3be-f27216764f7e")
 	)
+	(text "VFD_DI1 gets it's input from TechnoCNC \nconroller relay (SPINDLE_CMD)\nIt is the \"turn on motor\" signal"
+		(exclude_from_sim no)
+		(at 136.652 255.778 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "14e12bca-f8f2-4a39-9a05-e60bf9d63a89")
+	)
 	(text "SPI BUS"
 		(exclude_from_sim no)
 		(at 219.71 99.822 0)
@@ -6025,6 +6036,12 @@
 		(uuid "3a9d5dc4-3fa9-4f89-8f8c-054c9a6c196a")
 	)
 	(junction
+		(at 182.88 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ae24cd4-dd34-4e3e-b344-320089d9d3de")
+	)
+	(junction
 		(at 194.056 66.802)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6119,6 +6136,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e428b7a8-e9ba-465f-9e37-758cf931f911")
+	)
+	(junction
+		(at 182.88 233.172)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9918202-e447-4301-b6c9-dfdf12d030d8")
 	)
 	(no_connect
 		(at 128.27 77.47)
@@ -6815,6 +6838,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 218.44) (xy 182.88 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52ed802f-4676-45c8-a098-e3054fc42b44")
+	)
+	(wire
+		(pts
 			(xy 213.0911 23.591) (xy 254 23.591)
 		)
 		(stroke
@@ -7046,6 +7079,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 233.172) (xy 182.88 235.204)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "761562a3-2712-49ce-ad8e-e7ab7547711e")
+	)
+	(wire
+		(pts
 			(xy 72.39 40.64) (xy 72.39 54.61)
 		)
 		(stroke
@@ -7153,16 +7196,6 @@
 			(type default)
 		)
 		(uuid "8206eb3d-9aa1-4060-810b-937e2cd50c7e")
-	)
-	(wire
-		(pts
-			(xy 182.88 233.172) (xy 182.88 235.204)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "831d8307-70bd-4434-ac31-e52cf771a860")
 	)
 	(wire
 		(pts
@@ -7676,6 +7709,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 218.44) (xy 182.88 233.172)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0200263-b541-407c-a0cb-1831df4574dd")
+	)
+	(wire
+		(pts
 			(xy 234.169 49.022) (xy 234.169 50.7878)
 		)
 		(stroke
@@ -8006,6 +8049,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 217.17) (xy 182.88 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb758372-a112-42aa-ae22-c3c14c24875d")
+	)
+	(wire
+		(pts
 			(xy 187.8999 46.3781) (xy 194.056 46.3781)
 		)
 		(stroke
@@ -8250,7 +8303,7 @@
 	)
 	(global_label "VFD_COM"
 		(shape input)
-		(at 182.88 233.172 90)
+		(at 182.88 217.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8262,7 +8315,7 @@
 		)
 		(uuid "6038cff5-4291-4600-83c8-884867d7bc0b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.88 221.2441 90)
+			(at 194.8079 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8323,32 +8376,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "VFD_COM"
-		(shape input)
-		(at 158.75 218.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "9dcc763f-9a75-40e1-b8c0-420f8d957deb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.6779 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)

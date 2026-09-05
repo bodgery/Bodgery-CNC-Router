@@ -5620,6 +5620,17 @@
 		)
 		(uuid "fc6ecedc-018d-422c-a170-be4b9f444b00")
 	)
+	(text "Yellow Wire"
+		(exclude_from_sim no)
+		(at 121.412 141.478 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+		)
+		(uuid "040c06ab-ecb8-4ebe-922e-ec9e07a9838e")
+	)
 	(text "SparkFun\nMCP4731 I2C DAC"
 		(exclude_from_sim no)
 		(at 46.482 72.39 0)
@@ -5693,6 +5704,17 @@
 		)
 		(uuid "1b749dac-d0cb-4225-9484-c546aded5196")
 	)
+	(text "Brown Wire"
+		(exclude_from_sim no)
+		(at 157.734 239.776 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+		)
+		(uuid "1e42321e-937e-4187-99e9-9857cbff31a0")
+	)
 	(text "ESP32 EEVKIT V1"
 		(exclude_from_sim no)
 		(at 210.82 55.88 90)
@@ -5753,6 +5775,17 @@
 		)
 		(uuid "3516ef69-6f12-43b6-8d15-0f99c3eb2788")
 	)
+	(text "Green Wire"
+		(exclude_from_sim no)
+		(at 175.514 233.426 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+		)
+		(uuid "362c0115-47de-46f3-aae6-ed0b2bcda3fc")
+	)
 	(text "+5V"
 		(exclude_from_sim no)
 		(at 37.338 185.928 0)
@@ -5775,6 +5808,17 @@
 		)
 		(uuid "39b3521d-ed95-4967-a299-398a8c00da59")
 	)
+	(text "Blue Wire"
+		(exclude_from_sim no)
+		(at 251.46 73.406 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+		)
+		(uuid "4201b93f-4f6f-4867-928d-30c5b0e22525")
+	)
 	(text ""
 		(exclude_from_sim no)
 		(at 118.11 160.528 0)
@@ -5785,6 +5829,17 @@
 		)
 		(uuid "44898175-f958-4364-8445-fe4085cbc1c8")
 	)
+	(text "Orange Wire"
+		(exclude_from_sim no)
+		(at 112.522 240.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+		)
+		(uuid "460455c3-bc1b-4204-a28a-6b41e97d2f33")
+	)
 	(text "Programming Connector\n(USB-C, Female)"
 		(exclude_from_sim no)
 		(at 256.286 50.546 0)
@@ -5794,6 +5849,17 @@
 			)
 		)
 		(uuid "4b55daf3-f945-4328-8a19-8e7a77e3f036")
+	)
+	(text "Green Wire"
+		(exclude_from_sim no)
+		(at 42.164 60.706 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+		)
+		(uuid "4d0da37f-df0a-4cff-ae2c-e2fae2c00b46")
 	)
 	(text "Din-3"
 		(exclude_from_sim no)
@@ -5825,6 +5891,28 @@
 		)
 		(uuid "6740ebd2-7e19-4f49-9595-7493545d0c3e")
 	)
+	(text "Orange Wire"
+		(exclude_from_sim no)
+		(at 42.418 100.076 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+		)
+		(uuid "731452af-1116-4f8f-a18d-1a4d8b08e5c5")
+	)
+	(text "Grey Wire"
+		(exclude_from_sim no)
+		(at 30.48 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+		)
+		(uuid "73f31876-8490-478b-b4d7-adcec14b84ca")
+	)
 	(text "Encoder Signals"
 		(exclude_from_sim no)
 		(at 69.088 116.84 0)
@@ -5834,6 +5922,17 @@
 			)
 		)
 		(uuid "7597ae89-036c-4497-a590-a5f66e932786")
+	)
+	(text "Orange Wire"
+		(exclude_from_sim no)
+		(at 214.884 246.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+		)
+		(uuid "75bce248-c953-4c48-9a61-a03f47de066e")
 	)
 	(text "Auto"
 		(exclude_from_sim no)
@@ -5847,6 +5946,17 @@
 		)
 		(uuid "761316b0-3e43-4e04-92bb-41176b4dc67f")
 	)
+	(text "Green Wire"
+		(exclude_from_sim no)
+		(at 198.12 262.382 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+		)
+		(uuid "791a7e41-58dd-4cfe-ad02-ccf0839fb729")
+	)
 	(text "SparkFun\nADS1115 I2C ADC"
 		(exclude_from_sim no)
 		(at 47.244 32.004 0)
@@ -5856,6 +5966,17 @@
 			)
 		)
 		(uuid "7a0f8215-5544-4bfa-9148-a475682b170f")
+	)
+	(text "BLUE WIRE"
+		(exclude_from_sim no)
+		(at 186.182 254.508 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+		)
+		(uuid "7d0d3c93-f21b-4037-8695-e876fd7c075e")
 	)
 	(text "Off"
 		(exclude_from_sim no)
@@ -5869,6 +5990,17 @@
 		)
 		(uuid "7d3d628d-8172-42a4-b9c7-f3c2f6635b95")
 	)
+	(text "Blue Wire"
+		(exclude_from_sim no)
+		(at 149.352 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+		)
+		(uuid "86f2123b-72e4-4878-b320-d098d07aedf0")
+	)
 	(text "Chiller"
 		(exclude_from_sim no)
 		(at 147.32 50.546 0)
@@ -5878,6 +6010,50 @@
 			)
 		)
 		(uuid "87ce9750-03e7-4ab4-af16-f50293b70eff")
+	)
+	(text "White Wire"
+		(exclude_from_sim no)
+		(at 214.884 230.124 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+		)
+		(uuid "8884197c-0796-4af0-b00a-fb6e9423d658")
+	)
+	(text "White Wire"
+		(exclude_from_sim no)
+		(at 146.812 162.814 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+		)
+		(uuid "8bb7c402-0426-4e73-aa2c-6d26db73b868")
+	)
+	(text "Blue Wire"
+		(exclude_from_sim no)
+		(at 200.914 223.012 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+		)
+		(uuid "8c499cfb-48df-4fc7-9304-0907db33514a")
+	)
+	(text "Blue Wire"
+		(exclude_from_sim no)
+		(at 93.218 115.824 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+		)
+		(uuid "92b844b4-dc5f-4e68-84cb-f772db75ecbc")
 	)
 	(text "240 x 320 SPI LCD "
 		(exclude_from_sim no)
@@ -5909,6 +6085,50 @@
 		)
 		(uuid "a5038abc-ecf3-45da-a4bb-417f6fa9f717")
 	)
+	(text "Yellow Wire"
+		(exclude_from_sim no)
+		(at 105.918 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+		)
+		(uuid "a5719de4-2a1a-488d-8234-025ef72375cb")
+	)
+	(text "Brown Wire"
+		(exclude_from_sim no)
+		(at 33.274 134.112 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+		)
+		(uuid "a881d777-0e46-4387-a5db-bb818fb2dc4e")
+	)
+	(text "Green Wire"
+		(exclude_from_sim no)
+		(at 62.23 245.11 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+		)
+		(uuid "b0bcf39d-c9a1-4467-9e6e-9b385e2ab955")
+	)
+	(text "Red Wire"
+		(exclude_from_sim no)
+		(at 40.132 224.536 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+		)
+		(uuid "b9dc8104-e97b-456a-8429-ef5afdf613d0")
+	)
 	(text "Warning light cable\n"
 		(exclude_from_sim no)
 		(at 52.324 254.762 0)
@@ -5921,6 +6141,17 @@
 		)
 		(uuid "c0d4bf95-cb45-4ca0-947c-1b1f51fa0ab4")
 	)
+	(text "Red Wire"
+		(exclude_from_sim no)
+		(at 97.536 221.996 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+		)
+		(uuid "cc762341-0579-4a27-a9ca-881f49dc74eb")
+	)
 	(text "I2C Buss"
 		(exclude_from_sim no)
 		(at 154.432 16.256 0)
@@ -5930,6 +6161,28 @@
 			)
 		)
 		(uuid "cdad6e5d-92ce-4758-bf31-c0fa604b49b1")
+	)
+	(text "White Wire"
+		(exclude_from_sim no)
+		(at 165.608 225.806 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+		)
+		(uuid "d3fda4bd-8d88-4748-9937-4969ea388965")
+	)
+	(text "Yellow Wire"
+		(exclude_from_sim no)
+		(at 85.344 220.726 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+		)
+		(uuid "d47c965f-b98b-4f52-846f-bbc23cc486b3")
 	)
 	(text "(Part of I2C relay board)\n"
 		(exclude_from_sim no)
@@ -5942,6 +6195,28 @@
 			)
 		)
 		(uuid "d61c8c25-1c8e-4174-98ad-bdabf526e472")
+	)
+	(text "Yellow Wire"
+		(exclude_from_sim no)
+		(at 39.37 245.618 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+		)
+		(uuid "dff6c2f1-7c05-45c7-b407-d39c7b82a4b9")
+	)
+	(text "Green Wire"
+		(exclude_from_sim no)
+		(at 98.806 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+		)
+		(uuid "ef6ecea1-65a8-4c47-a93d-d71577f0a565")
 	)
 	(text "Relay #4"
 		(exclude_from_sim no)
@@ -5992,6 +6267,17 @@
 			)
 		)
 		(uuid "fa15921d-efc0-4cc1-977c-c2bf3b4997e9")
+	)
+	(text "Green Wire"
+		(exclude_from_sim no)
+		(at 117.348 224.536 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+		)
+		(uuid "fbfc57da-1a44-4caf-a65c-c8fb4871fa8c")
 	)
 	(junction
 		(at 279.4 46.99)

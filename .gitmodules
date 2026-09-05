@@ -1,0 +1,3 @@
+[submodule "CNC_display"]
+	path = CNC_display
+	url = https://github.com/polymerchm/CNC_display.git

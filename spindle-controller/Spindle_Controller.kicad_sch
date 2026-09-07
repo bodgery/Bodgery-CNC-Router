@@ -5620,6 +5620,16 @@
 		)
 		(uuid "fc6ecedc-018d-422c-a170-be4b9f444b00")
 	)
+	(text "(Cable red)"
+		(exclude_from_sim no)
+		(at 137.668 172.72 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "03be6b1e-8e1a-4494-9f24-b1b370ceb49e")
+	)
 	(text "Yellow Wire"
 		(exclude_from_sim no)
 		(at 121.412 141.478 0)
@@ -5703,6 +5713,16 @@
 			)
 		)
 		(uuid "1b749dac-d0cb-4225-9484-c546aded5196")
+	)
+	(text "(Cable black)"
+		(exclude_from_sim no)
+		(at 127.254 173.228 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1ca4d187-e25f-4920-90ec-2609d0cd3db2")
 	)
 	(text "Brown Wire"
 		(exclude_from_sim no)
@@ -5850,6 +5870,16 @@
 		)
 		(uuid "4b55daf3-f945-4328-8a19-8e7a77e3f036")
 	)
+	(text "Cable Yellow"
+		(exclude_from_sim no)
+		(at 46.482 245.872 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4b5f4838-9583-4884-8baa-35f190ff23c8")
+	)
 	(text "Green Wire"
 		(exclude_from_sim no)
 		(at 42.164 60.706 90)
@@ -5913,6 +5943,16 @@
 		)
 		(uuid "73f31876-8490-478b-b4d7-adcec14b84ca")
 	)
+	(text "Cable White"
+		(exclude_from_sim no)
+		(at 55.118 245.618 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7406ae3b-7e72-4cc0-8d84-34b290bd03c9")
+	)
 	(text "Encoder Signals"
 		(exclude_from_sim no)
 		(at 69.088 116.84 0)
@@ -5945,6 +5985,16 @@
 			)
 		)
 		(uuid "761316b0-3e43-4e04-92bb-41176b4dc67f")
+	)
+	(text "Cable Black"
+		(exclude_from_sim no)
+		(at 61.722 223.266 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "77b4c4c0-76c9-499a-9d66-cb276de71973")
 	)
 	(text "Green Wire"
 		(exclude_from_sim no)
@@ -6044,6 +6094,16 @@
 		)
 		(uuid "8c499cfb-48df-4fc7-9304-0907db33514a")
 	)
+	(text "(Cable red)"
+		(exclude_from_sim no)
+		(at 108.204 172.72 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8e154cb4-3658-4324-b035-13f3dcd0f67c")
+	)
 	(text "Blue Wire"
 		(exclude_from_sim no)
 		(at 93.218 115.824 0)
@@ -6140,6 +6200,16 @@
 			)
 		)
 		(uuid "c0d4bf95-cb45-4ca0-947c-1b1f51fa0ab4")
+	)
+	(text "(Cable black)"
+		(exclude_from_sim no)
+		(at 156.972 173.228 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c5713466-3f36-463d-a6a1-8d89e148bee8")
 	)
 	(text "Red Wire"
 		(exclude_from_sim no)
@@ -6247,6 +6317,16 @@
 			)
 		)
 		(uuid "f3c91615-5736-4b22-985f-59bb5239f0e5")
+	)
+	(text "Cable Red"
+		(exclude_from_sim no)
+		(at 46.228 224.028 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f40811a9-e748-4679-923a-21c64654714f")
 	)
 	(text "Relay #2"
 		(exclude_from_sim no)
@@ -6512,10 +6592,6 @@
 	(no_connect
 		(at 246.38 127)
 		(uuid "eaaf50d6-5a66-46bb-a67d-01c1563fc5e8")
-	)
-	(no_connect
-		(at 177.8 187.96)
-		(uuid "eec8822d-445a-4285-98ae-ccf1e2e827af")
 	)
 	(no_connect
 		(at 256.54 31.75)

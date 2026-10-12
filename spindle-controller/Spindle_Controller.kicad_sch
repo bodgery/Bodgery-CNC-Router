@@ -6307,7 +6307,7 @@
 		)
 		(uuid "d7da14e0-353f-48b0-bfa3-fac9e8f338be")
 	)
-	(text "Relay #3"
+	(text "Relay #4"
 		(exclude_from_sim no)
 		(at 116.332 86.106 0)
 		(effects
@@ -6593,6 +6593,10 @@
 	(no_connect
 		(at 118.11 172.72)
 		(uuid "458185f7-a2f5-4ea5-94e3-1331e6872886")
+	)
+	(no_connect
+		(at 186.69 172.72)
+		(uuid "496f44f2-8f73-4b0f-80a1-b465c5088129")
 	)
 	(no_connect
 		(at 135.89 228.6)
@@ -7580,6 +7584,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 180.34) (xy 194.31 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c83542a-8fc1-4f3c-9441-b530fc2a5899")
+	)
+	(wire
+		(pts
 			(xy 92.71 163.83) (xy 125.73 163.83)
 		)
 		(stroke
@@ -7770,16 +7784,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 190.5) (xy 213.36 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "928c3172-fb96-4c8a-a754-50899773e419")
-	)
-	(wire
-		(pts
 			(xy 58.42 40.64) (xy 72.39 40.64)
 		)
 		(stroke
@@ -7787,6 +7791,16 @@
 			(type default)
 		)
 		(uuid "92d761e8-dff1-4988-81e7-38685eec952a")
+	)
+	(wire
+		(pts
+			(xy 179.07 167.64) (xy 215.9 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93771a89-ed8b-474c-a3a0-a00693e7b6d6")
 	)
 	(wire
 		(pts
@@ -7947,16 +7961,6 @@
 			(type default)
 		)
 		(uuid "b41b568f-aefe-4e8b-b042-5443d66cd1e4")
-	)
-	(wire
-		(pts
-			(xy 176.53 167.64) (xy 215.9 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5fd5dd1-e0d4-44fc-ab54-0f5eb1fe8f8b")
 	)
 	(polyline
 		(pts
@@ -8380,13 +8384,13 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 182.88) (xy 176.53 190.5)
+			(xy 179.07 180.34) (xy 179.07 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e26701c8-84eb-427d-8c75-f19aff1de21b")
+		(uuid "e34385a4-be30-4f84-a2be-e883f0c2d0c8")
 	)
 	(wire
 		(pts
@@ -8417,16 +8421,6 @@
 			(type default)
 		)
 		(uuid "e3d9bb5c-4690-495c-bd93-9925e79f70dd")
-	)
-	(wire
-		(pts
-			(xy 176.53 180.34) (xy 176.53 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5b03766-359e-4438-b04c-e23e64524301")
 	)
 	(wire
 		(pts
@@ -8507,6 +8501,16 @@
 			(type default)
 		)
 		(uuid "f1cb1e23-56d7-4203-8452-af2919920146")
+	)
+	(wire
+		(pts
+			(xy 194.31 190.5) (xy 213.36 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f39ca57a-01ec-4578-b1b1-5b3f24e08ee0")
 	)
 	(wire
 		(pts
@@ -9256,88 +9260,6 @@
 			(project "Spindle_Controller"
 				(path "/10c7a81d-d8e0-4023-94dc-af5199d847de"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:LEMO2")
-		(at 184.15 180.34 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "28b1b164-906b-4d4e-983b-4847a720fd42")
-		(property "Reference" "J27"
-			(at 188.976 182.8801 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GX12-2"
-			(at 183.5785 175.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "2-pin LEMO connector"
-			(at 184.15 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5c33e276-9e98-4872-92cd-9a8c584c56cf")
-		)
-		(pin "1"
-			(uuid "3ea0a40a-89ac-4315-9b66-934cb297bf5f")
-		)
-		(instances
-			(project "Spindle_Controller"
-				(path "/10c7a81d-d8e0-4023-94dc-af5199d847de"
-					(reference "J27")
 					(unit 1)
 				)
 			)
@@ -11962,6 +11884,88 @@
 			(project "Spindle_Controller"
 				(path "/10c7a81d-d8e0-4023-94dc-af5199d847de"
 					(reference "K4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:DIN-3")
+		(at 186.69 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c0de6da3-3323-4b17-bc79-defb347fc718")
+		(property "Reference" "J15"
+			(at 186.69 187.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GX12-3"
+			(at 186.944 169.672 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf"
+			(at 186.69 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "3-pin DIN connector"
+			(at 186.69 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6879fa23-42ed-4a9d-b577-597b60bfbe3b")
+		)
+		(pin "2"
+			(uuid "58414fcc-a59a-4666-a7af-e2d3d6f75659")
+		)
+		(pin "3"
+			(uuid "50f0e470-79c5-432b-a8e8-eb7086bbf082")
+		)
+		(instances
+			(project "Spindle_Controller"
+				(path "/10c7a81d-d8e0-4023-94dc-af5199d847de"
+					(reference "J15")
 					(unit 1)
 				)
 			)

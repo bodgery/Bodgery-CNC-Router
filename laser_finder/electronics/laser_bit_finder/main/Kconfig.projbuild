@@ -1,0 +1,22 @@
+menu "Laser Bit Finder"
+
+    config LEFT_LED_PIN
+        int "Left LED GPIO Number"
+        default 21 
+        help
+            GPIO number for Left LED
+    
+    config CENTER_LED_PIN
+        int "Center LED GPIO Number"
+        default 22 
+        help
+            GPIO number for Center LED
+
+    config RIGHT_LED_PIN
+        int "Right LED GPIO Number"
+        default 23
+        help
+            GPIO number for Right LED
+
+
+endmenu

@@ -1,0 +1,29 @@
+dependencies:
+  espressif/esp_lcd_sh1107:
+    component_hash: 04b223f56e8d5d784d8a14037911a327ba7a14cdb508ff63611d953122a14b17
+    dependencies:
+    - name: idf
+      require: private
+      version: '>=5.2'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 1.2.0
+  idf:
+    source:
+      type: idf
+    version: 6.0.1
+  tny-robotics/sh1106-esp-idf:
+    component_hash: 036f5aad73224c563c3edb5db6f9833f3eb47c41b3d479740edddf49488ced69
+    dependencies: []
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 1.0.2
+direct_dependencies:
+- espressif/esp_lcd_sh1107
+- idf
+- tny-robotics/sh1106-esp-idf
+manifest_hash: 9465dd3e82bdeca6e597f03b3c88c13e66f9feda1278e23c6127b24cfa259516
+target: esp32
+version: 3.0.0

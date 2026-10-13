@@ -8,6 +8,7 @@ _autosave-*
 .AppleDouble
 .LSOverride
 *.zip
+*.3mf
 
 # Directory metadata
 .directory

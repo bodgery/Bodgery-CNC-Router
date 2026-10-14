@@ -114,7 +114,7 @@ require "strict"
 --   second digit - any commit that changes the report's OUTPUT, fixes
 --                  included (resets the third digit to 0)
 --   first digit  - ready to share beyond Steve; 0.x means beta
-g_version = "0.9.0"
+g_version = "0.10.0"
 g_title = "Clock Review Report"
 g_width = 900
 g_height = 700
@@ -549,6 +549,14 @@ DRAGONFLY_CONCENTRIC_CLUSTER_TOLERANCE_IN = 0.01  -- inches - how
 -- double-checking before trusting this particular flag.
 OVERCUT_TARGET_IN = 0.020  -- inches into the spoilboard
 OVERCUT_TOLERANCE_IN = 0.010  -- inches
+
+-- Float slack on the tolerance comparison (2026-10-14, v0.10.0),
+-- ported from BoxProjectReviewReport.lua. Overcut = depth - thickness,
+-- both floats, so a value meant to sit exactly on the tolerance edge
+-- (e.g. 0.010") can compute as 0.0099999..., print as "0.0100", and
+-- still fail - a real false positive seen on a Box Project file.
+-- 0.001" per Mike: physically negligible for spoilboard overcut.
+BOUNDARY_EPSILON_IN = 0.001  -- inches
 
 -- Expected toolpath count: 7 (pocket, accent circle, shaft hole,
 -- V-carve numbers, V-carve dragonfly, final cutout, chamfer). Simple
@@ -1717,6 +1725,7 @@ function FormatOvercutReport(job, mtl_block)
     local units = mtl_block.InMM and "mm" or "inches"
     local overcut_target = ToJobUnits(OVERCUT_TARGET_IN, mtl_block)
     local overcut_tolerance = ToJobUnits(OVERCUT_TOLERANCE_IN, mtl_block)
+    local boundary_epsilon = ToJobUnits(BOUNDARY_EPSILON_IN, mtl_block)
 
     r:Blank()
     r:Header("OVERCUT CHECK (final cutout)")
@@ -1756,7 +1765,7 @@ function FormatOvercutReport(job, mtl_block)
         "  '%s': depth=%.4f %s  thickness=%.4f %s  overcut=%.4f %s",
         tc.tp.Name, tc.depth, units, mtl_block.Thickness, units, overcut, units
     ))
-    if math.abs(overcut - overcut_target) > overcut_tolerance then
+    if math.abs(overcut - overcut_target) > overcut_tolerance + boundary_epsilon then
         r:Line(string.format(
             "  OVERCUT OUT OF RANGE: %.4f %s (target %.3f +/- %.3f %s)",
             overcut, units, overcut_target, overcut_tolerance, units

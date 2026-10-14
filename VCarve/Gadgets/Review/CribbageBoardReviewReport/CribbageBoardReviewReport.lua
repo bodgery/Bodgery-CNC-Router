@@ -117,7 +117,7 @@ require "strict"
 --   second digit - any commit that changes the report's OUTPUT, fixes
 --                  included (resets the third digit to 0)
 --   first digit  - ready to share beyond Steve; 0.x means beta
-g_version = "0.9.0"
+g_version = "0.10.0"
 g_title = "Cribbage Board Review Report"
 g_width = 800
 g_height = 650
@@ -301,6 +301,17 @@ DOWEL_SYMMETRY_TOL     = 0.010   -- inches - max allowed mirror-position error
 CUTOUT_SIDE_KEYWORD      = "bottom"
 CUTOUT_OVERCUT_EXPECTED  = 0.020
 CUTOUT_OVERCUT_TOLERANCE = 0.010
+
+-- Float slack on overcut tolerance comparisons (2026-10-14, v0.10.0),
+-- ported from BoxProjectReviewReport.lua. Overcut = depth - thickness,
+-- both floats, so a value meant to sit exactly on the tolerance edge
+-- (e.g. 0.010") can compute as 0.0099999... and fall outside. Here
+-- that matters MORE than in Box/Clock: overcut is used to IDENTIFY the
+-- through-cut toolpaths, so a boundary miss means the cutout isn't
+-- recognized at all (cascading into "could not identify", "CUTS
+-- THROUGH MATERIAL", and skipped web/lead checks). 0.001" per Mike:
+-- physically negligible for spoilboard overcut.
+BOUNDARY_EPSILON = 0.001  -- inches
 
 -- Web width / lead-in-out encroachment checks - ported from the
 -- "Cutout Web / Lead Check" diagnostic gadget, validated there against
@@ -761,7 +772,7 @@ function FindCutoutToolpathForLeadCheck(job, mtl_block)
 
         if depth and string.find(string.lower(side_name), CUTOUT_SIDE_KEYWORD, 1, true) then
             local overcut = depth - mtl_block.Thickness
-            if overcut > 0 and math.abs(overcut - CUTOUT_OVERCUT_EXPECTED) <= CUTOUT_OVERCUT_TOLERANCE then
+            if overcut > 0 and math.abs(overcut - CUTOUT_OVERCUT_EXPECTED) <= CUTOUT_OVERCUT_TOLERANCE + BOUNDARY_EPSILON then
                 table.insert(candidates, tp)
             end
         end
@@ -1011,7 +1022,7 @@ function FormatToolpathReport(job, mtl_block)
         for _, d in ipairs(tp_data) do
             if d.depth and string.find(string.lower(d.side_name), spec.side_keyword, 1, true) then
                 local overcut = d.depth - mtl_block.Thickness
-                if overcut > 0 and math.abs(overcut - spec.overcut_expected) <= spec.overcut_tolerance then
+                if overcut > 0 and math.abs(overcut - spec.overcut_expected) <= spec.overcut_tolerance + BOUNDARY_EPSILON then
                     table.insert(candidates, d)
                 end
             end

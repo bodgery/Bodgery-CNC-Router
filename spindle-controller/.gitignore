@@ -3,6 +3,7 @@
 *.kicad_pcb-bak
 *.kicad_prl-bak
 ~*.lck
+*.zip
 *-backups/
 .history/
 

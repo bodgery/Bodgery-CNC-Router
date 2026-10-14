@@ -1,0 +1,11 @@
+## IDF Component Manager Manifest File
+dependencies:
+  espressif/esp_tinyusb:
+    version: "^2.0.1~1"
+  noopnoop2002/mpr121:
+    git:
+      https://github.com/nopnop2002/esp-idf-mpr121.git
+    path:
+      "components/mpr121"
+
+  

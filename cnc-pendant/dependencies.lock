@@ -1,14 +1,10 @@
 dependencies:
   espressif/esp_tinyusb:
-    component_hash: 0fab24246e07bdf919c6489d17a590cffbffbbf6a9c44d6235641645c8b946b7
+    component_hash: 0ff29f6113c4922691b3d7eee2f29af5fb98b799ef8b198a2956328f7c2296a9
     dependencies:
     - name: idf
       require: private
-      version: '>=5.0'
-    - name: espressif/tinyusb
-      registry_url: https://components.espressif.com
-      require: public
-      version: '>=0.17.0~2'
+      version: '>=5.3'
     source:
       registry_url: https://components.espressif.com/
       type: service
@@ -18,38 +14,14 @@ dependencies:
     - esp32p4
     - esp32h4
     - esp32s31
-    version: 2.3.0
-  espressif/tinyusb:
-    component_hash: 16c8d774dab1f484d3e0c0f61105624d2424bbae864efd19818baf7b451b41e7
-    dependencies:
-    - name: idf
-      require: private
-      version: '>=5.0'
-    source:
-      registry_url: https://components.espressif.com
-      type: service
-    targets:
-    - esp32s2
-    - esp32s3
-    - esp32p4
-    - esp32h4
-    - esp32s31
-    version: 0.21.0~2
+    version: 3.0.0
   idf:
     source:
       type: idf
     version: 6.0.1
-  noopnoop2002/mpr121:
-    component_hash: ea45228116fc73005d4b31e55aecee02a6765d4235b8987972177c04891dc750
-    dependencies: []
-    source:
-      git: https://github.com/nopnop2002/esp-idf-mpr121.git
-      path: components/mpr121
-      type: git
-    version: e2286677e9471df06f324918804d0158fc684873
 direct_dependencies:
 - espressif/esp_tinyusb
-- noopnoop2002/mpr121
-manifest_hash: 40a58123226f30aa62c2165bb312bf15d0f00558d19d15f0fb542b83914f9287
+- idf
+manifest_hash: 35bd9241a778f1523b0b41a2ae6c0367bae77149efeef7773ce4b69ca573457d
 target: esp32s3
 version: 3.0.0

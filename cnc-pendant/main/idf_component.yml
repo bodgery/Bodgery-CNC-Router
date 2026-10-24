@@ -1,11 +1,7 @@
-## IDF Component Manager Manifest File
 dependencies:
-  espressif/esp_tinyusb:
-    version: "^2.0.1~1"
-  noopnoop2002/mpr121:
-    git:
-      https://github.com/nopnop2002/esp-idf-mpr121.git
-    path:
-      "components/mpr121"
-
-  
+  idf: ">=5.1"
+  # esp_tinyusb had a breaking API change between 1.x and 2.x/3.x (the
+  # tinyusb_config_t layout moved to nested .descriptor/.phy/.task fields
+  # and gained the TINYUSB_DEFAULT_CONFIG() macro). main.c targets that
+  # newer API, so this pin requires it.
+  espressif/esp_tinyusb: "^3.0.0"

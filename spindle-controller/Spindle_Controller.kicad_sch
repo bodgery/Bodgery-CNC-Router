@@ -5900,6 +5900,19 @@
 		)
 		(uuid "6740ebd2-7e19-4f49-9595-7493545d0c3e")
 	)
+	(text "NB: All colors correspond to colors in the enclosure and NOT the cables"
+		(exclude_from_sim no)
+		(at 197.612 276.098 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "67df3d7c-1ce3-4681-919c-9eeeedb1ee4f")
+	)
 	(text "FOB \"ON Signal\""
 		(exclude_from_sim no)
 		(at 168.402 181.864 0)
@@ -5954,7 +5967,7 @@
 	)
 	(text "Orange Wire"
 		(exclude_from_sim no)
-		(at 226.06 248.92 0)
+		(at 232.41 238.252 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6062,7 +6075,7 @@
 	)
 	(text "White Wire"
 		(exclude_from_sim no)
-		(at 229.87 232.41 0)
+		(at 227.584 248.412 0)
 		(effects
 			(font
 				(size 1.27 1.27)

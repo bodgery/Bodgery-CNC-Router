@@ -7,7 +7,7 @@
       "intelliSenseMode": "gcc-arm",
       "includePath": [
         "${workspaceFolder}/**",
-        "/Users/spollack/.espressif/v6.1/esp-idf/components/**",
+        "/Users/spollack/.espressif/v6.0.1/esp-idf/components/**",
         "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"
       ],
       "browse": {

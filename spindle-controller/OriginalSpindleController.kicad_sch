@@ -2397,7 +2397,7 @@
 		)
 		(uuid "5896b7bc-987b-49db-970f-b6fb5f64b76a")
 	)
-	(text "N.B:    Logic Signals must be relative to \nCOM and NOT GND.\n-                       GND is power ground\n-                       COM is logic ground\nGND and COMM are isolated from one another, but there are \nsneak paths between them.\n\nOP tied to +24 will allow DIx to be active if tied to COM\nOP tied to COM will allow DIx to be active if tied to +24V.\n[NOT IN MANUAL]"
+	(text "N.B:    Logic Signals must be relative to \nCOM and NOT GND.\n-                       GND is power ground\n-                       COM is logic ground\nGND and COM are isolated from one another, but there are \nsneak paths between them.\n\nOP tied to +24 will allow DIx to be active if tied to COM\nOP tied to COM will allow DIx to be active if tied to +24V.\n[NOT IN MANUAL]"
 		(exclude_from_sim no)
 		(at 317.754 69.85 0)
 		(effects
@@ -2530,7 +2530,7 @@
 		)
 		(uuid "d01e8745-d766-4472-98c3-dc7a50d656ee")
 	)
-	(text "SW3 is a keyed switch that when on (green)\nenables the \"standard\" control know to set\nthe frequency.\n\nwhen it is off (red), the \"keypad\"  is ignored and VF1 signal \nsets the frequency (external source)"
+	(text "SW3 is a keyed switch that when on (green)\nenables the \"standard\" control knob to set\nthe frequency.\n\nwhen it is off (red), the \"keypad\"  is ignored and VF1 signal \nsets the frequency (external source)"
 		(exclude_from_sim no)
 		(at 291.084 91.948 0)
 		(effects

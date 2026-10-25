@@ -19,9 +19,9 @@ These are working tools in regular use, shared as-is. They have rough edges. A f
    `C:\ProgramData\Vectric\VCarve Pro Trial Edition\V12.5\Gadgets\Review\`
 
    `ProgramData` is hidden by default. Paste the path into Explorer's address bar to get there.
-2. Restart VCarve if the gadgets don't show up under the Gadgets menu.
+2. Restart VCarve. New gadgets don't appear in the Gadgets menu until VCarve restarts.
 
-To update, copy the folders again and overwrite the old ones.
+To update, copy the folders again and overwrite the old ones. Changes to a gadget that's already installed take effect the next time you run it, with no restart needed.
 
 ## Using
 

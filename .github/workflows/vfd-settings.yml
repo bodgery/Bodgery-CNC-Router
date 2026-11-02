@@ -1,0 +1,39 @@
+name: VFD settings check
+
+# Runs whenever anything in the VFD folder changes.
+# 1. Checks the CSV files for formatting and range errors (red X on the commit if any).
+# 2. On the default branch, regenerates VFD/differences.md and commits it if it changed.
+
+on:
+  push:
+    paths: ["VFD/**"]
+  pull_request:
+    paths: ["VFD/**"]
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check settings files
+        run: python3 VFD/tools/check.py
+
+      - name: Update differences.md
+        if: github.event_name == 'push' && github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+        run: |
+          python3 VFD/tools/differences.py
+          if ! git diff --quiet -- VFD/differences.md; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+            git add VFD/differences.md
+            git commit -m "Update VFD/differences.md"
+            git push
+          fi

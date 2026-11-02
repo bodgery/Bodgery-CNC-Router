@@ -1,0 +1,61 @@
+value,function,description
+0,No function,Terminal unused
+1,Forward run (FWD),Run forward while active (two-wire mode)
+2,Reverse run (REV),Run reverse while active (two-wire mode)
+3,Three-wire run control,Enables three-wire mode; see manual 7.1.1
+4,Forward jog,Jog forward at P0.1.08
+5,Reverse jog,Jog reverse at P0.1.08
+6,Terminal UP,Raise keyboard frequency reference
+7,Terminal DOWN,Lower keyboard frequency reference
+8,Free stop (coast),Output off while active; motor coasts
+9,Multi-step terminal 1,Selects step reference P3.0.03-P3.0.33 (binary with 10-12)
+10,Multi-step terminal 2,
+11,Multi-step terminal 3,
+12,Multi-step terminal 4,
+13,Fault reset,Same as keypad RESET
+14,Run pause,Decelerate and hold; resume when released
+15,External fault (N.O.),Err13 when active
+16,Accel/decel time select 1,Selects time set 1-4 with function 17
+17,Accel/decel time select 2,
+18,Frequency source select 1,Used when P0.1.00=8
+19,Frequency source select 2,
+20,Frequency source select 3,
+21,Run command source select 1,Switches keyboard/terminal/communication; manual table 4
+22,Run command source select 2,
+23,UP/DOWN reset,Clears UP/DOWN adjustment back to P0.0.05
+24,Accel/decel inhibit,Holds output frequency (except stop)
+25,PID pause,
+26,PLC state reset,
+27,Wobble pause,
+28,Counter input,
+29,Counter reset,
+30,Length count input,
+31,Length reset,
+32,Torque control inhibit,Forces speed control
+33,PULS pulse input,DI6 only
+34,Immediate DC brake,
+35,External fault (N.C.),Err13 when NOT active
+36,Frequency change enable,Frequency changes accepted only while active
+37,PID direction invert / run direction,Also reverses direction when P0.0.06=2
+38,External stop 1,Stop when in keyboard control
+39,External stop 2,Decelerate to stop on decel time 4 in any mode
+40,PID integral hold,
+41,PID parameter switch,Used when P4.0.13=1
+42,Speed/torque control switch,
+43,Emergency stop,Output off immediately; motor coasts
+44,Decelerate then DC brake,
+45,User fault 1,Err21
+46,User fault 2,Err22
+47,Running time reset,
+48,Timer input 1,
+49,Timer input 2,
+50,Timer reset 1,
+51,Timer reset 2,
+52,Encoder phase A,
+53,Encoder phase B,
+54,Distance reset,
+55,Integration reset,
+56,User function 1,Reserved
+57,User function 2,Reserved
+58,User function 3,Reserved
+59,User function 4,Reserved

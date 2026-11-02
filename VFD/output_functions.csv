@@ -1,0 +1,61 @@
+value,function,description
+0,No function,
+1,Drive running,On while running (including at 0 Hz output)
+2,Fault stop,On when stopped by a fault
+3,FDT1 frequency level,See P2.2.03/P2.2.04
+4,Frequency arrival,See P2.2.02
+5,Zero-speed running,On while running at 0 Hz (off when stopped)
+6,Motor overload pre-alarm,See P1.0.26
+7,Drive overload pre-alarm,10 s before overload trip
+8,Reference count reached,P3.1.11
+9,Designated count reached,P3.1.12
+10,Length reached,P3.1.08
+11,PLC cycle complete,250 ms pulse
+12,Accumulated running time reached,P2.2.01
+13,Frequency limited,At upper or lower limit
+14,Torque limited,
+15,Ready to run,
+16,VF1 > VF2,
+17,Upper frequency reached,
+18,Lower frequency reached (running only),
+19,Under-voltage,
+20,Communication controlled,Set by Modbus
+21,VF1 below lower limit,P2.2.19
+22,VF1 above upper limit,P2.2.20
+23,Zero speed 2 (also when stopped),
+24,Accumulated power-on time reached,P2.2.00
+25,FDT2 frequency level,P2.2.05/P2.2.06
+26,Frequency 1 reached,P2.2.07/P2.2.08
+27,Frequency 2 reached,P2.2.09/P2.2.10
+28,Current 1 reached,P2.2.15/P2.2.16
+29,Current 2 reached,P2.2.17/P2.2.18
+30,Timed run reached,P3.1.00-P3.1.02
+31,VF1 out of limits,
+32,Off-load,
+33,Running in reverse,
+34,Zero current,P2.2.11/P2.2.12
+35,Module temperature reached,P2.2.21
+36,Output current over limit,P2.2.13/P2.2.14
+37,Lower frequency reached (also when stopped),
+38,Alarm (continuing after fault),
+39,PLC step complete,200 ms pulse
+40,Current running time reached,P2.2.22
+41,Fault (not for under-voltage),
+42,Timer 1 reached,
+43,Timer 2 reached,
+44,Timer 1 reached and timer 2 not,
+45,User function 1,Reserved
+46,User function 2,Reserved
+47,User function 3,Reserved
+48,User function 4,Reserved
+49,User function 5,Reserved
+50,Virtual relay M1,
+51,Virtual relay M2,
+52,Virtual relay M3,
+53,Virtual relay M4,
+54,Virtual relay M5,
+55,Distance above zero,
+56,Distance setpoint 1 reached,
+57,Distance setpoint 2 reached,
+58,Operation result 2 > 0,
+59,Operation result 4 > 0,
